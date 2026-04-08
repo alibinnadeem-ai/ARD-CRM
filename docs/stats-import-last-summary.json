@@ -1,0 +1,138 @@
+{
+  "import_batch_id": "8",
+  "source_dir": "/Users/macbookpro/Antigravity DevOps/ard-crm/ARD Stats",
+  "files_total": 16,
+  "files_processed": 16,
+  "rows_staged": 2850,
+  "rows_loaded": 2850,
+  "by_file": {
+    "Al Aswad Developers Pvt Ltd.html": {
+      "kind": "project_daily",
+      "owner": "Al Aswad Developers Pvt Ltd",
+      "rows_extracted": 1001,
+      "rows_transformed": 39,
+      "rows_staged": 39,
+      "rows_loaded": 39
+    },
+    "Al Raheem Total.html": {
+      "kind": "period_summary",
+      "owner": "Al Raheem Total",
+      "rows_extracted": 699,
+      "rows_transformed": 7,
+      "rows_staged": 7,
+      "rows_loaded": 7
+    },
+    "ARD Incoming Stats .html": {
+      "kind": "incoming_interaction",
+      "owner": "ARD Incoming",
+      "rows_extracted": 955,
+      "rows_transformed": 71,
+      "rows_staged": 71,
+      "rows_loaded": 71
+    },
+    "ARD Sales Support   UPH.html": {
+      "kind": "team_daily",
+      "owner": "ARD Sales Support / UPH",
+      "rows_extracted": 1001,
+      "rows_transformed": 347,
+      "rows_staged": 347,
+      "rows_loaded": 347
+    },
+    "ARD WhatsApp Incoming Stats .html": {
+      "kind": "incoming_interaction",
+      "owner": "ARD WhatsApp",
+      "rows_extracted": 953,
+      "rows_transformed": 14,
+      "rows_staged": 14,
+      "rows_loaded": 14
+    },
+    "Areeba.html": {
+      "kind": "agent_daily",
+      "owner": "Areeba",
+      "rows_extracted": 1002,
+      "rows_transformed": 348,
+      "rows_staged": 348,
+      "rows_loaded": 348
+    },
+    "Doha.html": {
+      "kind": "agent_daily",
+      "owner": "Doha",
+      "rows_extracted": 1001,
+      "rows_transformed": 347,
+      "rows_staged": 347,
+      "rows_loaded": 347
+    },
+    "Rehan.html": {
+      "kind": "agent_daily",
+      "owner": "Rehan",
+      "rows_extracted": 1001,
+      "rows_transformed": 345,
+      "rows_staged": 345,
+      "rows_loaded": 345
+    },
+    "Sales Sheet.html": {
+      "kind": "sales_conversion",
+      "owner": "Sales Sheet",
+      "rows_extracted": 1001,
+      "rows_transformed": 16,
+      "rows_staged": 16,
+      "rows_loaded": 16
+    },
+    "Sarwat.html": {
+      "kind": "agent_daily",
+      "owner": "Sarwat",
+      "rows_extracted": 1001,
+      "rows_transformed": 347,
+      "rows_staged": 347,
+      "rows_loaded": 347
+    },
+    "Sehrish.html": {
+      "kind": "agent_daily",
+      "owner": "Sehrish",
+      "rows_extracted": 971,
+      "rows_transformed": 317,
+      "rows_staged": 317,
+      "rows_loaded": 317
+    },
+    "UPH Incoming Stats .html": {
+      "kind": "incoming_interaction",
+      "owner": "UPH Incoming",
+      "rows_extracted": 953,
+      "rows_transformed": 1,
+      "rows_staged": 1,
+      "rows_loaded": 1
+    },
+    "UPH TOTAL .html": {
+      "kind": "team_daily",
+      "owner": "UPH TOTAL",
+      "rows_extracted": 1000,
+      "rows_transformed": 281,
+      "rows_staged": 281,
+      "rows_loaded": 281
+    },
+    "UPH WhatsApp Incoming Stats .html": {
+      "kind": "incoming_interaction",
+      "owner": "UPH WhatsApp",
+      "rows_extracted": 953,
+      "rows_transformed": 10,
+      "rows_staged": 10,
+      "rows_loaded": 10
+    },
+    "Weekly Report.html": {
+      "kind": "weekly_snapshot",
+      "owner": "Weekly Report",
+      "rows_extracted": 101,
+      "rows_transformed": 49,
+      "rows_staged": 49,
+      "rows_loaded": 49
+    },
+    "Zia.html": {
+      "kind": "agent_daily",
+      "owner": "Zia",
+      "rows_extracted": 965,
+      "rows_transformed": 311,
+      "rows_staged": 311,
+      "rows_loaded": 311
+    }
+  }
+}

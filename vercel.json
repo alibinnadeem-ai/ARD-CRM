@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/integrations/pull",
+      "schedule": "0 */6 * * *"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "ard-crm",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed:historical": "node scripts/seed-historical-data.mjs",
+    "db:backfill:relations": "node scripts/backfill-relational-data.mjs",
+    "seed:historical:full": "npm run seed:historical && npm run db:backfill:relations",
+    "seed:leads": "node scripts/seed-leads-from-stats.mjs",
+    "seed:stats": "node scripts/seed-ard-stats.mjs",
+    "seed:all": "npm run seed:leads && npm run seed:historical:full && npm run seed:stats"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cd": "^0.3.3",
+    "clsx": "^2.1.1",
+    "csv-parse": "^6.2.1",
+    "date-fns": "^3.6.0",
+    "jsonwebtoken": "^9.0.3",
+    "next": "15.3.0",
+    "pg": "^8.20.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "typescript": "^5"
+  }
+}
