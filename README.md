@@ -1,7 +1,7 @@
 # ARD CRM — Sales Intelligence Platform
 ARD Builders & Developers · Neon Postgres CRM
 
-Production CRM built on Next.js API routes with Neon Postgres as the persistent data store. Includes lead CRUD, analytics, CSV export, webhook ingestion, and connector scaffolding for ERP/ads/telephony sync.
+Production CRM built on Next.js API routes with Neon Postgres as the persistent data store. Includes lead CRUD, analytics, and CSV export for internal lead management.
 
 ## Stack
 - Frontend: Next.js + React
@@ -21,10 +21,9 @@ npm install
 cp .env.example .env.local
 ```
 
-3. Set at least these values in .env.local.
+3. Set at least this value in .env.local.
 ```bash
 DATABASE_URL=postgresql://<user>:<password>@<host>/<db>?sslmode=require&channel_binding=require
-WEBHOOK_SECRET=<secure-random-string>
 ```
 
 4. Run locally.
@@ -70,9 +69,6 @@ Unknown incoming fields are stored in extra and still rendered in lead detail vi
 - GET /api/sync
 - GET /api/sync/stats
 - GET /api/export/csv
-- POST /api/integrations/webhook
-- POST /api/integrations/pull
-- GET /api/integrations/status
 - GET /api/health
 
 ## Vercel Deployment
@@ -80,15 +76,10 @@ Unknown incoming fields are stored in extra and still rendered in lead detail vi
 2. Import the project in Vercel.
 3. Add environment variables in Vercel Project Settings:
 - DATABASE_URL
-- WEBHOOK_SECRET
-- API_SECRET_TOKEN (optional)
-- Connector env vars (optional)
 4. Deploy.
 
 ## Security Notes
 - Keep DATABASE_URL server-side only.
-- Keep WEBHOOK_SECRET private and rotate if exposed.
-- Keep API_SECRET_TOKEN enabled for scheduled/internal pull endpoints.
 
 ## License
 Internal use — ARD Builders & Developers

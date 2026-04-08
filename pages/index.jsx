@@ -68,7 +68,7 @@ export default function Dashboard() {
             Sales Intelligence
           </h1>
           <p style={{ color:"var(--text-muted)", fontSize:13.5, marginTop:5 }}>
-            {meta.title || "ARD CRM"} · Live Neon Postgres · auto-syncs every 90s
+            {meta.title || "ARD CRM"} · Live Neon Postgres · refreshes every 90s
           </p>
         </div>
         <div style={{ display:"flex", gap:10, flexWrap:"wrap" }}>
@@ -192,10 +192,6 @@ export default function Dashboard() {
           <a href="/api/health" target="_blank" style={{ color:"rgba(255,255,255,0.6)", fontSize:12.5, textDecoration:"none" }}>
             Health check
           </a>
-          <span style={{ color:"rgba(255,255,255,0.2)" }}>·</span>
-          <Link href="/integrations" style={{ color:"rgba(255,255,255,0.6)", fontSize:12.5, textDecoration:"none" }}>
-            Integrations
-          </Link>
           <span style={{ color:"rgba(255,255,255,0.2)" }}>·</span>
           <a href="/api/export/csv" style={{ color:"rgba(255,255,255,0.6)", fontSize:12.5, textDecoration:"none" }}>
             Export CSV
